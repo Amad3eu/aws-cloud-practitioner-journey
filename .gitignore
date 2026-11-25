@@ -1,0 +1,13 @@
+# Credenciais e chaves
+.aws/
+*.pem
+.env
+
+# Python
+__pycache__/
+.venv/
+
+# Terraform (o state guarda segredos em texto puro)
+.terraform/
+*.tfstate
+*.tfstate.*
